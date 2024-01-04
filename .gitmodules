@@ -1,0 +1,6 @@
+[submodule "AdaAttN"]
+	path = AdaAttN
+	url = https://github.com/hywang66/AdaAttN.git
+[submodule "stylegan3"]
+	path = stylegan3
+	url = https://github.com/hywang66/stylegan3.git

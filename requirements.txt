@@ -1,0 +1,17 @@
+torch -f https://download.pytorch.org/whl/cu118/torch_stable.html
+torchvision -f https://download.pytorch.org/whl/cu118/torch_stable.html
+click>=8.0
+pillow==9.2.0
+requests==2.28.1
+scipy==1.7.3
+tqdm==4.64.0
+ninja==1.10.2
+imageio==2.19.3
+matplotlib==3.5.2
+glfw==2.5.4
+pyopengl==3.1.6
+imageio-ffmpeg==0.4.7
+pyspng
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
