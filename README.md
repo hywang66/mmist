@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 Next, since we use StyleGAN3, you need to install additional tools including **CUDA toolkit 11.1 or later** and **GCC 7 or later**. See more details in the Requirements section of [StyleGAN3](https://github.com/hywang66/stylegan3)(folked). Note that the python dependencies are already installed in the previous step.
 
-Next, download the wikiart pre-trained StyleGAN3 model from [here](https://drive.google.com/file/d/18MOpwTMJsl_Z17q-wQVnaRLCUFZYSNkj) and put it under `./stylegan3/models/`. Its path should be `./models/wikiart-1024-stylegan3-t-17.2Mimg.pkl`
+Next, download the wikiart pre-trained StyleGAN3 model from [here](https://drive.google.com/file/d/19sTl0ygP9Z6Hx4kwM4VHP0j3THCqM3i5) and put it under `./stylegan3/models/`. Its path should be `./models/wikiart-1024-stylegan3-t-17.2Mimg.pkl`. (Thanks @chandagrover for sharing.)
 
 Next, download the pretrained AdaAttN model from [here](https://drive.google.com/file/d/1XvpD1eI4JeCBIaW5uwMT6ojF_qlzM_lo/view?usp=sharing) and copy it to the `checkpoints` folder in the AdaAttN repo, and unzip it. See more detailes in the forked [AdaAttN repo](https://github.com/hywang66/AdaAttN). Specifically:
 ```bash
